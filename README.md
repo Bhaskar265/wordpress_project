@@ -2,8 +2,6 @@
 
 This project sets up a local WordPress environment using Docker Compose.
 
-## 🚀 Getting Started
-
 ### Requirements
 - Docker
 - Docker Compose
