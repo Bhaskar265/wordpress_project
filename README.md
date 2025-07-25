@@ -75,6 +75,8 @@ You’ve created an SSH key using:
 bash
 Copy code
 ssh-keygen -t ed25519 -C "your_email@example.com"
+cat ~/.ssh/id_ed25519.pub
+
 You’ve added your public key (~/.ssh/id_ed25519.pub) to GitHub under
 GitHub → Settings → SSH and GPG Keys
 
