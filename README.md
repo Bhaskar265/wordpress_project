@@ -87,6 +87,13 @@ Copy code
 ssh -T git@github.com
 Then try:
 
+Start the SSH Agent and Add Your Key
+
+Run:
+
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+
 bash
 Copy code
 git remote add origin git@github.com:Bhaskar265/wordpress_project.git
